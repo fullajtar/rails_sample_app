@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
-  def hello
-    render html: "hello, world!"
+  def show
+    #@user = User.find(params[:id])
+    # debugger
   end
+
 end
