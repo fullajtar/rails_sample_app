@@ -1,7 +1,4 @@
 class ApplicationController < ActionController::Base
-  def show
-    #@user = User.find(params[:id])
-    # debugger
-  end
+  include SessionsHelper
 
 end
